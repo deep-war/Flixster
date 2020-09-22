@@ -19,7 +19,7 @@ In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-<img src="Fixster.gif" width=250><br>
+<img src="Fixster.gif" width=400><br>
 
 ### Notes
 Got a socket exception when accessing the Movie database API. Added <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> in AndroidManifest.xml Once the AndroidManifest,xml is changed, the app needs to be unistalled and then run. This would solve the issue.
