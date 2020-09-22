@@ -1,4 +1,4 @@
-# Flisxter
+# Flixster App
 Flixster is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ## Flix Part 1
@@ -22,7 +22,10 @@ In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]
 <img src="Fixster.gif" width=400><br>
 
 ### Notes
-Got a socket exception when accessing the Movie database API. Added <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> in AndroidManifest.xml Once the AndroidManifest,xml is changed, the app needs to be unistalled and then run. This would solve the issue.
+Got a socket exception when accessing the Movie database API. 
+##### Solution
+Added uses permission - ACCESS_NETWORK_STATE in AndroidManifest.xml 
+Once the AndroidManifest,xml is changed, the app needs to be unistalled and then run. This would resolve the issue.
 
 ### Open-source libraries used
 
